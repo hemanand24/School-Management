@@ -1,4 +1,4 @@
-School Management API
+## School Management API
 
 A Node.js + Express.js RESTful API that manages school data and supports proximity-based listing using MySQL as the database.
 
@@ -35,10 +35,10 @@ To implement a backend system with the following capabilities:
 ```
 2. List Schools by Proximity
 
-   - **Endpoint**: GET /listSchools
-
-    **Query Params**:
-
+- **Endpoint**: `GET /listSchools`
+- **Description**: Returns a sorted list of schools by closest distance to provided coordinates.  
+- **Query params**:
+ 
         latitude
 
         longitude
@@ -47,7 +47,6 @@ To implement a backend system with the following capabilities:
 ```
 GET /listSchools?latitude=12.97&longitude=77.59
 ```
-  -**Description**: Returns a sorted list of schools by closest distance to provided coordinates.
 
 🌐 Live API Deployment
 
