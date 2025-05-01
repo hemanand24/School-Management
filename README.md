@@ -126,7 +126,7 @@ node index.js
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Hemanand J
 Node.js — School Management API Project (April 2025)
