@@ -52,13 +52,13 @@ POST /addSchool
 GET /listSchools?latitude=12.97&longitude=77.59
 ```
 
-🌐 Live API Deployment
+## 🌐 Live API Deployment
 
 Hosted on Render:
 
     🔗 https://school-management-je4q.onrender.com
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 The codebase is organized in a single file for simplicity:
 
@@ -69,7 +69,7 @@ school-management-api/
 ├── package.json
 └── README.md
 
-🛠️ Setup Instructions
+## 🛠️ Setup Instructions
 🔧 Local Development
 
    Clone the repo:
@@ -104,19 +104,19 @@ node index.js
 
       DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME
 
-🧪 Postman Collection
+## 🧪 Postman Collection
 
    Includes example requests for both APIs
 
     📥 Postman Collection (https://www.postman.com/hemanandj/workspace/hemanand-j/collection/44506736-2f3a805c-5254-48af-bae9-c49e577c51b5?action=share&creator=44506736)
 
 
-🔐 Security Note
+## 🔐 Security Note
 
 .env file is excluded from the repo to avoid exposing credentials. Make sure to manually configure these secrets in your hosting environment (like Render).
 
 
-✅ Final Deliverables
+## ✅ Final Deliverables
 
 -Source code repository with clean commit history
 
