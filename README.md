@@ -33,6 +33,10 @@ To implement a backend system with the following capabilities:
   "longitude": 77.6144
 }
 ```
+ Example:
+```
+POST /addSchool
+```
 2. List Schools by Proximity
 
 - **Endpoint**: `GET /listSchools`
